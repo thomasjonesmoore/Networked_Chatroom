@@ -1,0 +1,19 @@
+1.
+   For this program, we are making a chat room that can host multiple clients
+   (up to 255). There are two types of clients, oberserver and participant.
+   The participant is the one who sends the message, while the observer just
+   watches everything happen. 
+2.
+   Following the protocol will be the most difficult part of this assignment,
+   along with juggling the different types of clients. The protocol is a lot
+   bigger than what we have seen in the past, so following that to spec will
+   take massive attention to detail. Also, scheduling time for all 3 of us to
+   meet up and work on the assignment seems to be a difficult task to overcome.   
+3.
+   a) Office hours / mentoring hours
+   b) StackOverflow and GeeksForGeeks
+   c) YouTube or Google keywords "socket api", etc.
+4.
+   We plan on meeting everyday during class time (i.e. 10-11 MTWF) at the very
+   least. As the due date comes closer, we will meet for longer sessions as
+   needed, depending on how much progress we have made on the program. 

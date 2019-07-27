@@ -1,0 +1,30 @@
+1.
+  Enya Garcia-Collazo
+  Thomas Jones-Moore
+  Jordan Juel
+
+2.
+  We encountered a weird error regarding the array that holds out client structures.
+  We want to make the size of it 255, but when we are iterating through it, when the
+  last element is accessed, the program segfaults. The only way we could fix this
+  problem is to initialize our array of client structures to be size 257, instead of
+  255.
+
+  When a new client connects to the server the process on the server waits for the
+  username inputs. Causing a halt in the server until the proper username is selected.
+
+3.
+  We tested that our code was working by connecting various participant and observers.
+  Connecting and disconnecting both types of clients at different times allowed us to make
+  sure our server did not hang when it was supposed to and was send/recv the correct
+  information. We also tested that our input handlers are working by inputting not
+  only correct input from stdin but also incorrect input. We verified that usernames
+  were being cleared with client disconnection by immediately trying to connect another
+  client with the same username.
+
+4.
+  Working with the selects in this assignment was the hardest part because we had to
+  figure out how to properly use the time structure and also the fd_set structures.
+  This was something pretty new to us so the usage of them was not intuitive. Once
+  we figured out how to monitor each socket with select, the rest of the program was
+  not too bad.
